@@ -3,10 +3,14 @@
 "NLP en Español 🤗" es la comunidad de hispanohablantes de la iniciativa "Languages at Hugging Face".
 
 Nuestra misión es crear y compartir recursos que posibiliten y aceleren el avance del NLP en Español. Es un objetivo muy amplio que se puede traducir en:
-- Crear bases de datos o añadir las ya existentes a la librería 🤗 Datasets
-- Entrenar modelos utilizando dichas bases de datos y añadirlos al 🤗 Model Hub
+- Crear bases de datos o añadir las ya existentes a la librería Datasets de Hugging Face
+- Entrenar modelos utilizando dichas bases de datos y añadirlos al Model Hub de Hugging Face
 - Crear tutoriales explicando cómo hacer uso de estos recursos o traducir los tutoriales ya existentes
 - Compartir eventos, artículos y proyectos interesantes para la comunidad ([Slack](https://join.slack.com/t/nlpenespaol/shared_invite/zt-n0cpcd87-hdAR_qiHtDcCAlCyZtwDKQ))
+
+<p align="center">
+  <img src="logo.png" alt="logo" width="400"/>
+</p>
 
 ## Datasets
 Ahora mismo hay [7 datasets monolingües en español](https://huggingface.co/datasets?filter=languages:es,multilinguality:monolingual).
@@ -55,4 +59,4 @@ Si tienes más dudas echa un vistazo a [Model Hub docs](https://huggingface.co/d
 Tanto si quieres crear un tutorial desde cero como si quieres traducir uno:
 1. Comparte tu idea en el canal #tutoriales de la comunidad de [Slack](https://join.slack.com/t/nlpenespaol/shared_invite/zt-n0cpcd87-hdAR_qiHtDcCAlCyZtwDKQ)
 2. Reúne un equipo para hacerla realidad
-3. Crea una subcarpeta nlp-es-hugging-face/tutoriales/<nombre_del_nuevo_tutorial> y ¡a trabajar!
+3. Crea una subcarpeta nlp-es-hugging-face/tutoriales/<nombre_del_nuevo_tutorial> en una nueva rama y ¡a trabajar!
