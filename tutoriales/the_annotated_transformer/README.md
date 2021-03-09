@@ -7,7 +7,20 @@ donde se explica e implementa el paper ["Attention Is All You Need"](https://exp
 <img src="https://nlp.seas.harvard.edu/images/the-annotated-transformer_0_0.png" alt="logo" width="400"/>
 
 ## Objetivo
-Nuestra intención es replicar el tutorial original en español a diferentes niveles de abstracción:
+En primer lugar entender cada una de las piezas que componen la arquitectura transfomers. 
+Para ello lo ideal sería hacer una implementación de cada una de las piezas/cajas que lo componen:
+
+- [ ] Positional encoding
+- [ ] Multi-head attention
+- [ ] Masked multi-head attention
+- [ ] Feed Foward
+- [ ] Add & Norm
+- [ ] Linear 
+- [ ] Softmax
+
+La implementación y explicación de estas cajas/piezas deberían ser auto-contenidas, utilizando aunque sea una entrada ficticia y una salida ficticia. 
+
+Finalmente nuestra intención es replicar el tutorial original en español a diferentes niveles de abstracción:
 - El nivel más bajo sería utilizando solo `numpy`
 - El nivel intermedio sería utilizando frameworks como `pytorch` y `tensorflow`
 - El nivel más alto sería utilizando la librería `transformers` de Hugging Face
