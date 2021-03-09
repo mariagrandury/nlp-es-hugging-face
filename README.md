@@ -59,4 +59,8 @@ Si tienes más dudas echa un vistazo a [Model Hub docs](https://huggingface.co/d
 Tanto si quieres crear un tutorial desde cero como si quieres traducir uno:
 1. Comparte tu idea en el canal #tutoriales de la comunidad de [Slack](https://join.slack.com/t/nlpenespaol/shared_invite/zt-n0cpcd87-hdAR_qiHtDcCAlCyZtwDKQ)
 2. Reúne un equipo para hacerla realidad
-3. Crea una subcarpeta nlp-es-hugging-face/tutoriales/<nombre_del_nuevo_tutorial> en una nueva rama y ¡a trabajar!
+3. Clona este repo
+4. Crea una rama llamada `<nombre_del_nuevo_tutorial>/readme`
+5. Crea una subcarpeta `nlp-es-hugging-face/tutoriales/<nombre_del_nuevo_tutorial>`
+6. Crea un README.md con la información del tutorial
+7. ¡Y a trabajar!
