@@ -26,10 +26,18 @@ Finalmente, nuestra intención es replicar el tutorial original en español a di
 - El nivel más alto sería utilizando la librería `transformers` de Hugging Face
 
 ## Cómo contribuir
-Para contribuir a este tutorial:
+Para contribuir al repositorio, primero clónalo y después crea una rama donde añadir tu aportación.
+
+Para contribuir a la explicación de la arquitectura Transformer:
+1. Elige una de las piezas de la arquitectura
+2. Crea una rama llamada `the_annotated_transformer/<pieza>` 
+(e.g. `the_annotated_transformer/positional_encoding`)
+3. Añade tu implementación de la pieza correspondiente al notebook `arquitectura_transformer.ipynb`
+4. Abre una Pull Request cuando hayas terminado para que otro contribuyente pueda revisar tu implementación
+
+Para contribuir a la traducción del tutorial:
 1. Elige una de las secciones del notebook original y la librería con la que quieres trabajar
-2. Clona este repositorio
-3. Crea una rama llamada `the_annotated_transformer/<libreria_utilizada>/<seccion>`
+2. Crea una rama llamada `the_annotated_transformer/<libreria_utilizada>/<seccion>`
 (e.g. `the_annotated_transformer/pytorch/model_architecture`)
-4. Añade tu sección al notebook correspondiente
-3. Abre una Pull Request cuando hayas terminado para que otro contribuyente pueda revisar la nueva sección
+3. Añade tu sección al notebook correspondiente (`the_annotated_transformer_<libreria>.ipynb`)
+4. Abre una Pull Request cuando hayas terminado para que otro contribuyente pueda revisar la nueva sección
